@@ -1,6 +1,6 @@
 ﻿namespace Hdir.Tass.Api.ViewModels
 {
-    public class Bruker
+    public class Søknad
     {
         public string[] Gruppe { get; set; }
 
