@@ -5,10 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ActionFilter\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Mappers\" />
-    <Folder Include="wwwroot\" />
+    <Compile Remove="ActionFilter\**" />
+    <Compile Remove="Extensions\**" />
+    <Compile Remove="Mappers\**" />
+    <Compile Remove="wwwroot\**" />
+    <Content Remove="ActionFilter\**" />
+    <Content Remove="Extensions\**" />
+    <Content Remove="Mappers\**" />
+    <Content Remove="wwwroot\**" />
+    <EmbeddedResource Remove="ActionFilter\**" />
+    <EmbeddedResource Remove="Extensions\**" />
+    <EmbeddedResource Remove="Mappers\**" />
+    <EmbeddedResource Remove="wwwroot\**" />
+    <None Remove="ActionFilter\**" />
+    <None Remove="Extensions\**" />
+    <None Remove="Mappers\**" />
+    <None Remove="wwwroot\**" />
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -45,8 +57,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hdir.Tass. DataAccess\Hdir.Tass. DataAccess.csproj" />
-    <ProjectReference Include="..\Hdir.Tass.BusinessLogic\Hdir.Tass.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Hdir.Besta.BusinessLogic\Hdir.Besta.Business.csproj" />
   </ItemGroup>
 
 </Project>

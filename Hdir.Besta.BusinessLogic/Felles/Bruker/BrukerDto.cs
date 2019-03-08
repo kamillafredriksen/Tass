@@ -1,6 +1,6 @@
-﻿namespace Hdir.Tass.Api.ViewModels
+﻿namespace Hdir.Tass.BusinessLogic.Felles.Bruker
 {
-    public class Bruker
+    public class BrukerDto
     {
         public string[] Gruppe { get; set; }
 

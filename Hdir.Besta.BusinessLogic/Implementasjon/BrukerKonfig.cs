@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Hdir.Tass.BusinessLogic.Implementasjon
+﻿namespace Hdir.Tass.BusinessLogic.Implementasjon
 {
     class BrukerKonfig
     {

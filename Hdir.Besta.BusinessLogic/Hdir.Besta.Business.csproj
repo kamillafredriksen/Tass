@@ -5,8 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hdir.Tass. DataAccess\Hdir.Tass. DataAccess.csproj" />
-    <ProjectReference Include="..\Hdir.Tass.Fasade\Hdir.Tass.Fasade.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hdir.Besta. DataAccess\Hdir.Besta. DataAccess.csproj" />
+    <ProjectReference Include="..\Hdir.Besta.Fasade\Hdir.Besta.Fasade.csproj" />
   </ItemGroup>
 
   <ItemGroup>

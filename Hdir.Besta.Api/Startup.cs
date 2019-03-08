@@ -14,6 +14,7 @@ using Microsoft.EntityFrameworkCore;
 using Hdir.Tass.Api.ViewModels;
 using Swashbuckle.AspNetCore.Swagger;
 using System.IO;
+using Hdir.Tass.Api.Infrastruktur;
 using NLog;
 using NLog.Config;
 using Microsoft.AspNetCore.Authorization;
@@ -41,6 +42,8 @@ namespace Hdir.Tass.Api
                 x.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "SwaggerXMLApi.xml"));
             });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.SettOppService(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
