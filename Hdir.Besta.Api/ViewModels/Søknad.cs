@@ -1,13 +1,20 @@
-﻿namespace Hdir.Tass.Api.ViewModels
+﻿using Hdir.Tass.Api.Enum;
+using System;
+
+namespace Hdir.Tass.Api.ViewModels
 {
     public class Søknad
     {
-        public string[] Gruppe { get; set; }
+        public string Organisasjosnummer { get; set; }
 
-        public string Navn { get; set; }
+        public string[] Personnummer { get; set; }
 
-        public string Epost { get; set; }
+        public string[]  Grupper { get; set; }
 
-        public bool Aktiv { get; set; }
+        public Søknadstype Type { get; set; }
+
+        public DateTime Fra { get; set; }
+
+        public DateTime? Til { get; set; }
     }
 }
