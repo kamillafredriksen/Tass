@@ -1,4 +1,4 @@
-﻿namespace Hdir.Tass.BusinessLogic.Felles.Bruker
+﻿namespace Hdir.Besta.BusinessLogic.Felles.Bruker
 {
     public class BrukerDto
     {

@@ -58,6 +58,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Hdir.Besta.BusinessLogic\Hdir.Besta.Business.csproj" />
+    <ProjectReference Include="..\Hdir.Besta.Felles\Hdir.Besta.Felles.csproj" />
   </ItemGroup>
 
 </Project>

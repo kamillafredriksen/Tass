@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Hdir.Tass.BusinessLogic.Felles
+namespace Hdir.Besta.BusinessLogic.Felles
 {
     public enum AvsenderRolle
     {

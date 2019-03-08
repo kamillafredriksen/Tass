@@ -1,9 +1,9 @@
 ﻿using System;
 using System.DirectoryServices.AccountManagement;
 using System.Linq;
-using Hdir.Tass.BusinessLogic.Felles.Bruker;
+using Hdir.Besta.BusinessLogic.Felles.Bruker;
 
-namespace Hdir.Tass.BusinessLogic.Implementasjon
+namespace Hdir.Besta.BusinessLogic.Implementasjon
 {
     public class BrukerService : IBrukerService
     {

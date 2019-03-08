@@ -1,11 +1,12 @@
 ﻿
-using Hdir.Tass.BusinessLogic.Implementasjon;
-using Hdir.Tass.Fasade.Infrastruktur;
-using Hdir.Tass._DataAccess.Infrastruktur;
+using Hdir.Besta.BusinessLogic.Implementasjon;
+using Hdir.Besta.Fasade.Infrastruktur;
+using Hdir.Besta.Felles.Infrastruktur;
+using Hdir.Besta._DataAccess.Infrastruktur;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Hdir.Tass.BusinessLogic.Infrastruktur
+namespace Hdir.Besta.BusinessLogic.Infrastruktur
 {
     public static class OppsettBusiness
     {
@@ -15,6 +16,7 @@ namespace Hdir.Tass.BusinessLogic.Infrastruktur
 
             serviceCollection.Configure<BrukerKonfig>(opt => configuration.GetSection("Bruker").Bind(opt));
 
+            serviceCollection.SettOppFelles(configuration);
             serviceCollection.SettOppDataAccess(configuration);
             serviceCollection.SettOppFasader(configuration);
         }

@@ -1,7 +1,7 @@
-﻿using Hdir.Tass.Api.Enum;
-using System;
+﻿using System;
+using Hdir.Besta.Felles.Enum;
 
-namespace Hdir.Tass.Api.ViewModels
+namespace Hdir.Besta.Api.ViewModels
 {
     public class Søknad
     {

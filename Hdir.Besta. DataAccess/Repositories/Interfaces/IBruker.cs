@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Hdir.Tass._DataAccess.Repositories.Interfaces
+namespace Hdir.Besta._DataAccess.Repositories.Interfaces
 {
     interface IBruker
     {

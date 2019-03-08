@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Hdir.Tass.Api
+namespace Hdir.Besta.Api
 {
     public class Program
     {

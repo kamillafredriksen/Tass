@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Hdir.Tass._DataAccess.Entiteter
+namespace Hdir.Besta._DataAccess.Entiteter
 {
     public class BrukerEntitet
     {

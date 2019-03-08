@@ -11,15 +11,15 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
-using Hdir.Tass.Api.ViewModels;
+using Hdir.Besta.Api.ViewModels;
 using Swashbuckle.AspNetCore.Swagger;
 using System.IO;
-using Hdir.Tass.Api.Infrastruktur;
+using Hdir.Besta.Api.Infrastruktur;
 using NLog;
 using NLog.Config;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Hdir.Tass.Api
+namespace Hdir.Besta.Api
 {
     [Authorize(Roles = "Administrator, User")]
     public class Startup

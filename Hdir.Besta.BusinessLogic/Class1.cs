@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Hdir.Tass.BusinessLogic
+namespace Hdir.Besta.BusinessLogic
 {
     public class Class1
     {

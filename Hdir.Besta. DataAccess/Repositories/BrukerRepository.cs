@@ -1,9 +1,9 @@
-﻿using Hdir.Tass._DataAccess.Repositories.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Hdir.Besta._DataAccess.Repositories.Interfaces;
 
-namespace Hdir.Tass._DataAccess.Repositories
+namespace Hdir.Besta._DataAccess.Repositories
 {
     class BrukerRepository : IBruker
     {

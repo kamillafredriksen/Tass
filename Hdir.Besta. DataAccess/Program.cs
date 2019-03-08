@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Hdir.Tass._DataAccess
+namespace Hdir.Besta._DataAccess
 {
     class Program
     {

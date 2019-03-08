@@ -1,7 +1,7 @@
-﻿using Hdir.Tass.BusinessLogic.Implementasjon;
+﻿using Hdir.Besta.BusinessLogic.Implementasjon;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Hdir.Tass.Api.Controllers
+namespace Hdir.Besta.Api.Controllers
 {
     /// <summary>
     ///  Konstruktør

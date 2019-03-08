@@ -1,6 +1,6 @@
-﻿using Hdir.Tass.BusinessLogic.Felles.Bruker;
+﻿using Hdir.Besta.BusinessLogic.Felles.Bruker;
 
-namespace Hdir.Tass.Api.ViewModels
+namespace Hdir.Besta.Api.ViewModels
 {
     public class Bruker
     {

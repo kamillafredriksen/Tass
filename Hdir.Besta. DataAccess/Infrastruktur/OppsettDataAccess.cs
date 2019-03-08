@@ -1,13 +1,13 @@
-﻿using Hdir.Tass._DataAccess.Repositories;
-using Hdir.Tass._DataAccess.Repositories.Interfaces;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Hdir.Besta._DataAccess.Repositories;
+using Hdir.Besta._DataAccess.Repositories.Interfaces;
 
-namespace Hdir.Tass._DataAccess.Infrastruktur
+namespace Hdir.Besta._DataAccess.Infrastruktur
 {
     public static class OppsettDataAccess
     {

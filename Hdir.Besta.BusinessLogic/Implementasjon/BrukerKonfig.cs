@@ -1,4 +1,4 @@
-﻿namespace Hdir.Tass.BusinessLogic.Implementasjon
+﻿namespace Hdir.Besta.BusinessLogic.Implementasjon
 {
     class BrukerKonfig
     {

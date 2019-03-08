@@ -1,10 +1,10 @@
-﻿using Hdir.Tass._DataAccess.Entiteter;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Hdir.Besta._DataAccess.Entiteter;
 
-namespace Hdir.Tass._DataAccess
+namespace Hdir.Besta._DataAccess
 {
     public class MainDbContext : DbContext
     {

@@ -1,8 +1,8 @@
-﻿using Hdir.Tass.BusinessLogic.Infrastruktur;
+﻿using Hdir.Besta.BusinessLogic.Infrastruktur;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Hdir.Tass.Api.Infrastruktur
+namespace Hdir.Besta.Api.Infrastruktur
 {
     public static class OppsettApi
     {

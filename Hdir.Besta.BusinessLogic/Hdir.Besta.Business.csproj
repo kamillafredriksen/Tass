@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Hdir.Besta. DataAccess\Hdir.Besta. DataAccess.csproj" />
     <ProjectReference Include="..\Hdir.Besta.Fasade\Hdir.Besta.Fasade.csproj" />
+    <ProjectReference Include="..\Hdir.Besta.Felles\Hdir.Besta.Felles.csproj" />
   </ItemGroup>
 
   <ItemGroup>

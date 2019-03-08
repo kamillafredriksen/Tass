@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Hdir.Tass.BusinessLogic.Implementasjon;
+using Hdir.Besta.BusinessLogic.Implementasjon;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Hdir.Tass.Api.Controllers
+namespace Hdir.Besta.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
